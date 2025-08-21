@@ -11,9 +11,14 @@ html
 <body>
   <h1>Life Binder</h1>
   <div id="sections">
-    <button onclick="addEntry('ID')">Add ID</button>
-    <button onclick="addEntry('Warranty')">Add Warranty</button>
-    <button onclick="addEntry('Pet')">Add Pet Record</button>
+  <button onclick="addEntry('ID')">Add ID</button>
+  <button onclick="addEntry('Warranty')">Add Warranty</button>
+  <button onclick="addEntry('Pet')">Add Pet Record</button>
+</div>
+
+<!-- Camera capture button -->
+<input type="file" accept="image/*" capture="environment" id="cameraInput">
+
   </div>
   <div id="entries"></div>
   <script src="app.js"></script>
