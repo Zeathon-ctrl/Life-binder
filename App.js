@@ -1,3 +1,5 @@
+javascript
+
 function addEntry(type) {
   const entry = document.createElement('div');
   entry.className = 'entry';
